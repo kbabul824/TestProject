@@ -1,4 +1,4 @@
-package com.dd;
+package practise;
 
 import java.sql.Driver;
 import java.util.concurrent.TimeUnit;

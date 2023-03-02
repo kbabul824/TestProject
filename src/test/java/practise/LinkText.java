@@ -1,4 +1,4 @@
-package com.dd;
+package practise;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ public class LinkText {
 	public static WebDriver driver;
 	public static void main(String[] args) {
 		int count=0;
-		System.setProperty("webdriver.chrome.driver","C:\Users\babpandey\Downloads\OSV_Trainingmaterial\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\babpandey\\Downloads\\OSV_Trainingmaterial\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://hdfcbank.com/");
 		List<WebElement>links=driver.findElements(By.tagName("a"));

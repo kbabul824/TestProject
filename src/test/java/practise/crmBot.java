@@ -1,4 +1,4 @@
-package com.dd;
+package practise;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
