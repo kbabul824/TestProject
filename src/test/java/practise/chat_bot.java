@@ -10,15 +10,15 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class chat_bot {
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","D:\\JARZ\\chromedriver\\chromedriver.exe");
-		ChromeOptions options=new ChromeOptions();
+		System.setProperty("webdriver.chrome.driver", "D:\\JARZ\\chromedriver\\chromedriver.exe");
+		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
-		WebDriver driver=new ChromeDriver(options);
+		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.irctc.co.in/nget/train-search");
 		driver.manage().window().maximize();
-		List<WebElement> bot=driver.findElements(By.xpath("//b[contains(text(),'X')]"));
+		List<WebElement> bot = driver.findElements(By.xpath("//b[contains(text(),'X')]"));
 		System.out.println("bot found");
-		if(bot.size()>0) {
+		if (bot.size() > 0) {
 			bot.get(0).click();
 			System.out.println("bot clicked");
 		}
