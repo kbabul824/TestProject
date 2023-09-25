@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Test {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","D:\\JARZ\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.xpath("//input[@id='email']")).sendKeys("kbabul67@yopmail.com");
