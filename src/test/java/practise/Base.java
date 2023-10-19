@@ -15,7 +15,7 @@ public class Base {
 	@BeforeClass
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Documents\\selenium\\chromedriver-win32\\chromedriver.exe");
+				System.getProperty("user.dir")+"/src/test/resources/driver/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
 		driver = new ChromeDriver(options);
