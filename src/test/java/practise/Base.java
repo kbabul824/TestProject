@@ -17,9 +17,9 @@ public class Base {
 		System.setProperty("webdriver.chrome.driver",
 				System.getProperty("user.dir")+"/src/test/resources/driver/chromedriver");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--disable-dev-shm-usage");
+		//options.addArguments("--disable-dev-shm-usage");
 		//options.addArguments("--window-size=1024*768");
-		options.addArguments("start-maximized");
+		//options.addArguments("start-maximized");
 		options.setHeadless(true);
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
