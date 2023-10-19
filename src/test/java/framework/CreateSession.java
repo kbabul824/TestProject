@@ -65,8 +65,9 @@ public class CreateSession {
 			String OS = System.getProperty("os.name");
 			if(OS.contains("Windows"))
 			{
+				;
 				System.setProperty("webdriver.chrome.driver",
-						"C:\\Users\\Documents\\selenium\\chromedriver-win32\\chromedriver.exe");
+						System.getProperty("user.dir")+"/src/test/resources/driver/chromedriver");
 				
 				
 				
