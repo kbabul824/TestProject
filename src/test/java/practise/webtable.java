@@ -9,9 +9,10 @@ import org.testng.annotations.Test;
 public class webtable extends Base {
 	@Test
 	public void crickbuzz() {
-		driver.get("http://demo.automationtesting.in/WebTable.html");
+		driver.get("https://demo.automationtesting.in/Register.html");
 		driver.manage().window().maximize();
 		List<WebElement> row = driver.findElements(By.xpath("//div[@role='gridcell']"));
+		System.out.println(driver.getTitle());
 		String name = "7889890912";
 		for (int i = 0; i < row.size(); i++) {
 			String data = row.get(i).getText().toString();
