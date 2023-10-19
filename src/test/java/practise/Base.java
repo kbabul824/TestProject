@@ -14,7 +14,7 @@ public class Base {
 
 	@BeforeClass
 	public void setUp() {
-		System.setProperty("webdriver.chrome.whitelistedIps",
+		System.setProperty("webdriver.chrome.driver",
 				System.getProperty("user.dir")+"/src/test/resources/driver/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-dev-shm-usage");
