@@ -18,6 +18,7 @@ public class Base {
 				System.getProperty("user.dir")+"/src/test/resources/driver/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
+		options.addArguments("--headless");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
