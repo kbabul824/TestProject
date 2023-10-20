@@ -16,10 +16,7 @@ public class webtable extends Base {
 		driver.manage().window().maximize();
 		List<WebElement> row = driver.findElements(By.xpath("//div[@role='gridcell']"));
 		System.out.println(driver.getTitle());
-		driver.get("https://www.irctc.co.in/nget/train-search");
-		driver.manage().window().maximize();
-		List<WebElement> bot = driver.findElements(By.xpath("//b[contains(text(),'X')]"));
-		System.out.println(driver.getTitle());
+		
 		driver.get("https://hdfcbank.com/");
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		System.out.println(links.size());
@@ -31,7 +28,7 @@ public class webtable extends Base {
 			}
 		}
 		System.out.println("The total visible links are " + count);
-		Assert.assertEquals("Test", "Test");
+		Assert.assertEquals(192, count,"coundt doesnt match");
 
 	}
 	}

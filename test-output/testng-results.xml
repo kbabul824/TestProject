@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-20T02:49:25Z" name="Default suite" finished-at="2023-10-20T02:51:01Z" duration-ms="95828">
+  <suite started-at="2023-10-20T05:14:43Z" name="Default suite" finished-at="2023-10-20T05:15:49Z" duration-ms="66262">
     <groups>
     </groups>
-    <test started-at="2023-10-20T02:49:25Z" name="Default test" finished-at="2023-10-20T02:51:01Z" duration-ms="95828">
+    <test started-at="2023-10-20T05:14:43Z" name="Default test" finished-at="2023-10-20T05:15:49Z" duration-ms="66262">
       <class name="practise.webtable">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:practise.webtable@45d84a20]" started-at="2023-10-20T02:49:25Z" name="setUp" finished-at="2023-10-20T02:49:26Z" duration-ms="1414" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practise.webtable@45d84a20]" started-at="2023-10-20T05:14:43Z" name="setUp" finished-at="2023-10-20T05:14:44Z" duration-ms="1224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="crickbuzz()[pri:0, instance:practise.webtable@45d84a20]" started-at="2023-10-20T02:49:26Z" name="crickbuzz" finished-at="2023-10-20T02:50:50Z" duration-ms="84135" status="PASS">
+        <test-method signature="crickbuzz()[pri:0, instance:practise.webtable@45d84a20]" started-at="2023-10-20T05:14:44Z" name="crickbuzz" finished-at="2023-10-20T05:15:39Z" duration-ms="54574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crickbuzz -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:practise.webtable@45d84a20]" started-at="2023-10-20T02:50:51Z" name="tearDown" finished-at="2023-10-20T02:51:01Z" duration-ms="10255" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practise.webtable@45d84a20]" started-at="2023-10-20T05:15:39Z" name="tearDown" finished-at="2023-10-20T05:15:49Z" duration-ms="10445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

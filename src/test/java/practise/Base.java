@@ -22,11 +22,12 @@ public class Base {
 			System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir")+"/src/test/resources/driver/chromedriver");
 			options = new ChromeOptions();
+			options.setHeadless(true);
 		}
 		//options.addArguments("--disable-dev-shm-usage");
 		//options.addArguments("--window-size=1024*768");
 		//options.addArguments("start-maximized");
-		options.setHeadless(true);
+		
 		options.addArguments("--disable-gpu");
 		options.addArguments("--no-sandbox");
 		driver = new ChromeDriver(options);
