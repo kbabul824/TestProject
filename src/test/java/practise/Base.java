@@ -28,8 +28,8 @@ public class Base {
 		//options.addArguments("--window-size=1024*768");
 		//options.addArguments("start-maximized");
 		
-		options.addArguments("--disable-gpu");
-		options.addArguments("--no-sandbox");
+//		options.addArguments("--disable-gpu");
+//		options.addArguments("--no-sandbox");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
